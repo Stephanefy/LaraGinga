@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!--text au centre de lecrant-->
+<!--début de texte au centre de l'écran-->
 <header class="home2">
     <div class="row">
         <div class="offset-md-3 col-md-6 text-center center2">
@@ -21,9 +21,9 @@
 
     </div>
 </header>
-<!--fin text au centre de lecrant-->
+<!--fin de texte au centre de l'écran-->
 
-<!--carousel-->
+<!--début carousel-->
 <div class="row">
     <div class="col-4"></div>
     <div id="carouselExampleControls" class="carousel slide col-4" data-ride="carousel">
@@ -58,10 +58,10 @@
     </div>
     <div class="col-4"></div>
 </div>
-<!--fincarousel-->
+<!--fin carousel-->
 
 
-<!--boutton-->
+<!--début bouton modal pour réserver-->
 <div class="row mt-5">
     <div class="col-5"></div>
     <button type="button" class="btn btn-info btn-lg col-2" data-toggle="modal"
@@ -147,7 +147,7 @@
         </div>
     </div>
 </div>
-<!--finbouton-->
+<!--fin bouton modal pour réservation-->
 
 <!--footer-->
 <footer class="footer mt-5">
@@ -185,9 +185,9 @@
 
 
 </footer>
-<!--finfooter-->
+<!--fin footer-->
 
-<!--
+<!-- ne fonctionne pas
 
 <form action="Fichier php"> salle:<br> <input type="text" name="salle" id="formulaire_batard_salle" value=""><br>
     date:<br>
