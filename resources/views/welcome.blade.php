@@ -106,7 +106,7 @@
 
     @section('contenu')
 
-    <!--navebare-->
+    <!--nav bar-->
     <div class=" row bg-gra-03">
 
 
@@ -119,7 +119,7 @@
         </div>
         <!--fin logo et Nom du site -->
 
-        <!--nav bar menu-->
+        <!--début nav bar menu-->
         <div class="col-md-6">
             <ul class="nav justify-content-end">
                 <li class="nav-item">
@@ -133,9 +133,9 @@
         <!--fin nav bar menu-->
 
     </div>
-    <!--fin navebare-->
+    <!--fin nav bar-->
 
-    <!--text au centre de lecrant-->
+    <!--début texte au centre de l'écran-->
     <header class="home">
         <div class="row">
             <div class="offset-md-3 col-md-6 text-center center">
@@ -152,7 +152,7 @@
 
         </div>
     </header>
-    <!--fin text au centre de lecrant-->
+    <!--fin texte au centre de l'écran-->
 
     <!--titre-->
     <div class="row justify-content-center mt-5">
