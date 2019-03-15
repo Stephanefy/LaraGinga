@@ -1,0 +1,44 @@
+<form action="Fichier php"> salle:<br> <input type="text" name="salle" id="formulaire_batard_salle" value=""><br> date:<br>
+    <input type="date" name="date" id="formulaire_batard_date" value=""> Heure de début:<br>
+    <input type="time" name="duration" id="formulaire_batard_heure_debut" value=""> Durée:<br>
+    <input type="time" name="date" id="formulaire_batard_duree" value=""> <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<script>
+
+
+    function copiercollerformulaire() {
+
+        var salle = document.getElementById("salle").innerHTML;
+
+
+        document.getElementById("formulaire_batard_salle").value = salle;
+
+        alert("ID: " + salle);
+        var date= document.getElementById("date").innerHTML;
+
+
+        document.getElementById("formulaire_batard_date").value = date;
+
+        alert("ID: " + salle);
+        var duration = document.getElementById("duration").innerHTML;
+
+
+        document.getElementById("formulaire_batard_debut").value = duration;
+
+        alert("ID: " + salle);
+
+        var endingtime = document.getElementById("endingtime").innerHTML;
+
+
+        document.getElementById("formulaire_batard_duree").value = endingtime;
+
+
+
+
+    };
+
+
+    < script />
